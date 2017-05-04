@@ -5,8 +5,10 @@ public class TestModel {
 	public static void main(String[] args) {
 
 		Model model = new Model();
-
-		System.out.println("TestModel -- TODO");
+	
+	//	System.out.println(model.listaTotCountry);
+		
+		System.out.println(model.calcolaConfini(1900));
 		
 //		System.out.println("Creo il grafo relativo al 2000");
 //		model.createGraph(2000);
